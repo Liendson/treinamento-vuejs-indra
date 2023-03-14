@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "checkJs": false,
+    /* Typecheck .js files. */
+    "lib": ["es6"],
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/*"],
+      "~~/*": ["*"],
+      "@@/*": ["*"],
+    }
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.js"
+  ]
+}
