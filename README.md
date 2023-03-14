@@ -1,58 +1,51 @@
-# [Vue Paper Dashboard](https://cristijora.github.io/vue-paper-dashboard/)
+## Projeto Gestão de Alunos
 
-> Admin dashboard based on paper dashboard UI template + vue-router
+O objetivo do projeto é servir de base para o treinamento Interno de ".Net/Vuejs" da Indra, unidade de João Pessoa. Ministrado por Diego Pontes e Liendson Douglas.
 
-This project is a vue version of [Paper-dashboard](https://www.creative-tim.com/product/paper-dashboard)
-designed for vue js.The dashboard includes vue-router
+### Documentação do Vue.js
 
-Check the [Live Demo here](https://cristijora.github.io/vue-paper-dashboard).
+- [Vue.js][ng]
 
-[Nuxt Version (outdated Bootstrap 3)](https://github.com/cristijora/vue-paper-dashboard-nuxt)
-![](http://i.imgur.com/3iC1hOs.gif)
+## Configurando o Ambiente de Desenvolvimento
 
-## Documentation
+- Instalar o [Node.js][node] com o [Node Package Manager][npm]
+- Utilizaremos o [Visual Studio Code][vscode] para desenvolvimento
 
-Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/documentation/)
+- Instalar o [Vue Command Line (CLI)][cli] utilizando o seguinte comando:
 
-## Build Setup
+```
+npm install -g @vue/cli
+```
 
-### install dependencies
+- Instalar as dependências do projeto:
 
 ```
 npm install
 ```
 
-### serve with hot reload at localhost:8080
+Levantar a aplicação:
 
 ```
+cd [PROJECT NAME]
 npm run dev
 ```
 
-### build for production with minification
+### Arquitetura do projeto
 
 ```
-npm run build
+\node_modules - Diretório padrão para as dependências do projeto
+\src - Diretório raiz da aplicação;
+  \assets
+  \components
+  \mixins
+  \pages
+  \plugins
+  \router
+  \services
 ```
 
-### lint
-
-```
-npm run lint
-```
-
-## Contribution guide
-
-- Fork the repository
-- `npm install` or `yarn install`
-- Make changes
-- Open Pull Request
-
-For detailed explanation on how things work, checkout the [guide](https://github.com/vuejs/vue-cli/blob/dev/docs/README.md)
-
-- [CHANGELOG](./CHANGELOG.md)
-- [version-badge](https://img.shields.io/badge/version-1.0.1-blue.svg)
-- [license-badge](https://img.shields.io/badge/license-MIT-blue.svg)
-
-## License
-
-[MIT](https://github.com/creativetimofficial/vue-paper-dashboard/blob/master/LICENSE.md)
+[vue]: https://vuejs.org/
+[cli]: https://cli.vuejs.org/
+[npm]: https://www.npmjs.com/get-npm
+[vscode]: https://code.visualstudio.com/download
+[node]: https://nodejs.org/pt-br/download/
