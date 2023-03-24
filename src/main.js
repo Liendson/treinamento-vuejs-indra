@@ -11,6 +11,7 @@ import "@/assets/css/themify-icons.css";
 // Componentes
 import SideBarComponent from "@/components/sidebar-component/SideBarComponent.vue";
 import SidebarLinkComponent from "@/components/sidebar-component/SidebarLinkComponent.vue";
+import ComponenteTeste from "@/components/ComponenteTeste.vue";
 // Mixins
 import PageLoadingMixin from "@/mixins/page-loading.mixin";
 import NotificationMixin from "@/mixins/notification.mixin";
@@ -18,6 +19,7 @@ import NotificationMixin from "@/mixins/notification.mixin";
 // Componentes
 Vue.component("side-bar-component", SideBarComponent);
 Vue.component("sidebar-link-component", SidebarLinkComponent);
+Vue.component("teste-component", ComponenteTeste);
 
 // Mixins
 Vue.mixin(PageLoadingMixin);
